@@ -1,0 +1,45 @@
+.about {
+  padding-bottom: 0;
+
+  &__list {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+  }
+
+  &__list-item {
+    flex-basis: 270px;
+  }
+  &__list-title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--maim-txt-cl);
+  }
+
+  &__list-uppertitle {
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: var(--p-txt-cl);
+  }
+}
+
+.about__list-image {
+  display: block;
+  width: 270px;
+  height: 120px;
+
+  background-color: var(--our-team-bg-cl);
+  border-radius: 4px;
+
+  & {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

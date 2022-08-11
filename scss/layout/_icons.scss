@@ -1,0 +1,82 @@
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+  .socials-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color: var(--header-bg-cl);
+    border-radius: 50%;
+    color: var(--icons-bg-cl);
+    transition: color var(--anim-fast), background-color var(--anim-fast);
+
+    &:hover,
+    &:focus {
+      background-color: var(--button-bg-cl);
+      color: var(--header-bg-cl);
+    }
+  }
+
+  .socials-icon {
+    fill: currentColor;
+  }
+}
+// ----------------------------------header  icons
+.header-icons {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+// ----------------------------------footer icons
+
+.footer-icons {
+  margin-right: auto;
+
+  &-txt {
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    text-transform: uppercase;
+    color: var(--header-bg-cl);
+  }
+
+  &-txt {
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    text-transform: uppercase;
+    color: var(--header-bg-cl);
+  }
+
+  &-list {
+    display: flex;
+    gap: 10px;
+  }
+
+  &-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    color: var(--header-bg-cl);
+    transition: color var(--anim-fast), background-color var(--anim-fast);
+
+    &:hover,
+    &:focus {
+      background-color: var(--button-bg-cl);
+    }
+  }
+}
+
+.footer-icon {
+  fill: currentColor;
+}

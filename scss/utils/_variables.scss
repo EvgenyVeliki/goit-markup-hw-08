@@ -1,0 +1,28 @@
+/**
+  |============================
+  | blok 1 
+  |============================
+*/
+
+:root {
+  /* ===============================Founts */
+  --main-front: 'Roboto', sans-serif;
+  --secondary-front: 'Raleway', sans-serif;
+  /* ===============================Text colors */
+  --contacts-txt-cl: rgba(255, 255, 255, 0.6);
+  --maim-txt-cl: #212121;
+  --p-txt-cl: #757575;
+  --logo-txt-cl: #000000;
+  /*=============================== bg colors */
+  --dark-bg-cl: #2f303a;
+
+  --our-team-bg-cl: #f5f4fa;
+  --header-bg-cl: #ffffff;
+  --button-bg-cl: #2196f3;
+  --line-bg-cl: #e5e5e5;
+  --button-main-bg-cl: #188ce8;
+  --icons-bg-cl: #afb1b8;
+  /* ===============================Other color */
+  /* Animation */
+  --anim-fast: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
