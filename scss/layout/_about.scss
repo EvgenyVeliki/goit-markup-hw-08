@@ -1,14 +1,42 @@
 .about {
-  padding-bottom: 0;
+  // padding-bottom: 0;
+
+  @media screen and (min-width: 480px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 94;
+    padding-bottom: 0;
+  }
 
   &__list {
-    display: flex;
-    justify-content: flex-start;
-    gap: 30px;
+    @media screen and (min-width: 480px) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      display: flex;
+      justify-content: flex-start;
+      gap: 30px;
+    }
   }
 
   &__list-item {
-    flex-basis: 270px;
+    @media screen and (min-width: 480px) {
+      flex-basis: 450px;
+    }
+    @media screen and (min-width: 768px) {
+      flex-basis: 354px;
+    }
+    @media screen and (min-width: 1200px) {
+      flex-basis: 270px;
+    }
+    // flex-basis: 270px;
   }
   &__list-title {
     margin-top: 30px;
@@ -16,15 +44,29 @@
     font-weight: 700;
     font-size: 14px;
     line-height: calc(16 / 14);
-    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--maim-txt-cl);
+
+    @media screen and (min-width: 480px) {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+    }
+
+    @media screen and (min-width: 768px) {
+      display: flex;
+      justify-content: flex-start;
+    }
+
+    @media screen and (min-width: 1200px) {
+      display: flex;
+      justify-content: flex-start;
+    }
   }
 
   &__list-uppertitle {
     font-size: 14px;
     line-height: calc(24 / 14);
-    letter-spacing: 0.03em;
     color: var(--p-txt-cl);
   }
 }
@@ -33,6 +75,20 @@
   display: block;
   width: 270px;
   height: 120px;
+  @media screen and (min-width: 480px) {
+    width: 450px;
+    height: 170px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 354px;
+    height: 120px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+    height: 120px;
+  }
 
   background-color: var(--our-team-bg-cl);
   border-radius: 4px;

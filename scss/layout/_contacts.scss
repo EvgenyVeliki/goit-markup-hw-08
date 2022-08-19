@@ -10,6 +10,11 @@
   color: var(--p-txt-cl);
   transition: color var(--anim-fast);
 
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    padding-top: 5px;
+    padding-bottom: 21px;
+  }
+
   &:focus,
   &:hover {
     color: var(--button-bg-cl);
@@ -21,6 +26,10 @@
 
   & + & {
     margin-left: 50px;
+
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      margin-left: 0;
+    }
   }
 }
 
@@ -35,6 +44,11 @@
   letter-spacing: 0.02em;
   color: var(--p-txt-cl);
   transition: color var(--anim-fast);
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    padding-top: 21px;
+    padding-bottom: 5px;
+  }
 
   &:hover,
   &:focus {

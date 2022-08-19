@@ -25,13 +25,23 @@
   top: 50%;
   position: absolute;
   transform: translate(-50%, -50%);
-  width: 528px;
-  height: 581px;
+  // width: 528px;
+  // height: 581px;
   position: absolute;
   background-color: var(--header-bg-cl);
   border-radius: 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
+
+  @media screen and (min-width: 480px) {
+    width: 450px;
+    height: 609px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 528px;
+    height: 581px;
+  }
 }
 
 .backdrop.is-hidden .modal-window {
@@ -176,12 +186,22 @@
 }
 
 .register-form-agreement-text {
-  font-size: 14px;
-  line-height: calc(24 / 14);
+  // font-size: 14px;
+  // line-height: calc(24 / 14);
   color: var(--p-txt-cl);
   user-select: none;
 
   &-link {
     color: var(--button-bg-cl);
+  }
+
+  @media screen and (min-width: 480px) {
+    font-size: 12px;
+    line-height: calc(14 / 12);
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: calc(24 / 14);
   }
 }

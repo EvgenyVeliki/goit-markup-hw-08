@@ -63,6 +63,11 @@
             >
           </li>
         </ul>
+        <button class="menu-button" type="button" data-menu-open>
+          <svg width="40" height="40">
+            <use href="./img/icons.svg#icon-burger-menu40px"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
@@ -137,33 +142,66 @@
           <h2 class="our__work-title">Чем мы занимаемся</h2>
           <ul class="our__work-list list">
             <li class="our__work-item">
-              <img
+              <picture>
+                <source
+                  srcset="./img/our-work/img-1-1x.jpg 1x, ./img/our-work/img-1-2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  class="our-team-link"
+                  src="./img/our-work/img-1-1x.jpg"
+                  alt="Фото Product Designer "
+                />
+              </picture>
+              <!-- <img
                 class="our__work-img"
                 src="./img/our-work/img1.jpg"
                 alt="Программист наберает код сайта на компьютере"
                 width="370"
                 height="294"
-              />
+              /> -->
               <p class="our__work-txt">Десктопные приложения</p>
             </li>
             <li class="our__work-item">
-              <img
+              <picture>
+                <source
+                  srcset="./img/our-work/img-2-1x.jpg 1x, ./img/our-work/img-2-2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  class="our-team-link"
+                  src="./img/our-work/img-2-1x.jpg"
+                  alt="Фото Product Designer "
+                />
+              </picture>
+              <!-- <img
                 class="our__work-img"
                 src="./img/our-work/img2.jpg"
                 alt="Программист  сравнивает макет с компьютера"
                 width="370"
                 height="294"
-              />
+              /> -->
               <p class="our__work-txt">Мобильные приложения</p>
             </li>
             <li class="our__work-item">
-              <img
+              <picture>
+                <source
+                  srcset="./img/our-work/img-3-1x.jpg 1x, ./img/our-work/img-3-2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  class="our-team-link"
+                  src="./img/our-work/img-3-1x.jpg"
+                  alt="Фото Product Designer "
+                />
+              </picture>
+              <!-- <img
                 class="our__work-img"
                 src="./img/our-work/img3.jpg"
                 alt="Программист выберает цвет из планшета"
                 width="370"
                 height="294"
-              />
+              /> -->
               <p class="our__work-txt">Дизайнерские решения</p>
             </li>
           </ul>
@@ -175,13 +213,26 @@
           <h2 class="team-title">Наша команда</h2>
           <ul class="our-team-list list">
             <li class="our-team-item">
-              <img
-                class="our-team-link"
-                src="./img/our-team/img1.jpg"
-                alt="Фото Product Designer "
-                width="270"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="./img/our-team/img-1@1x_lg.jpg 1x, ./img/our-team/img-1@2x_lg.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="./img/our-team/img-1@1x_md.jpg 1x, ./img/our-team/img-1@2x_md.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="./img/our-team/img-1@1x_sm.jpg 1x, ./img/our-team/img-1@2x_sm.jpg 2x"
+                  media="(min-width: 480px)"
+                />
+
+                <img
+                  class="our-team-link"
+                  src="./img/our-team/img-1@1x_sm.jpg"
+                  alt="Фото Product Designer "
+                />
+              </picture>
               <div class="card">
                 <h3 class="our-team-txt">Игорь Демьяненко</h3>
                 <p class="speciality" lang="en">Product Designer</p>
@@ -243,13 +294,25 @@
             </li>
 
             <li class="our-team-item">
-              <img
-                class="our-team-link"
-                src="./img/our-team/img2.jpg"
-                alt="Фото Frontend Developer"
-                width="270"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="./img/our-team/img-2@1x_lg.jpg 1x, ./img/our-team/img-2@2x_lg.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="./img/our-team/img-2@1x_md.jpg 1x, ./img/our-team/img-2@2x_md.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="./img/our-team/img-2@1x_sm.jpg 1x, ./img/our-team/img-2@2x_sm.jpg 2x"
+                  media="(min-width: 480px)"
+                />
+                <img
+                  class="our-team-link"
+                  src="./img/our-team/img-2@1x_lg.jpg"
+                  alt="Фото Product Designer "
+                />
+              </picture>
               <div class="card">
                 <h3 class="our-team-txt">Ольга Репина</h3>
                 <p class="speciality" lang="en">Frontend Developer</p>
@@ -311,13 +374,25 @@
             </li>
 
             <li class="our-team-item">
-              <img
-                class="our-team-link"
-                src="./img/our-team/img3.jpg"
-                alt="Фото Marketing"
-                width="270"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="./img/our-team/img-3@1x_lg.jpg 1x, ./img/our-team/img-3@2x_lg.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="./img/our-team/img-3@1x_md.jpg 1x, ./img/our-team/img-3@2x_md.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="./img/our-team/img-3@1x_sm.jpg 1x, ./img/our-team/img-3@2x_sm.jpg 2x"
+                  media="(min-width: 480px)"
+                />
+                <img
+                  class="our-team-link"
+                  src="./img/our-team/img-3@1x_lg.jpg"
+                  alt="Фото Product Designer "
+                />
+              </picture>
               <div class="card">
                 <h3 class="our-team-txt">Николай Тарасов</h3>
                 <p class="speciality" lang="en">Marketing</p>
@@ -379,13 +454,25 @@
             </li>
 
             <li class="our-team-item">
-              <img
-                class="our-team-link"
-                src="./img/our-team/img4.jpg"
-                alt="Фото UI Designer"
-                width="270"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="./img/our-team/img-4@1x_lg.jpg 1x, ./img/our-team/img-4@2x_lg.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="./img/our-team/img-4@1x_md.jpg 1x, ./img/our-team/img-4@2x_md.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="./img/our-team/img-4@1x_sm.jpg 1x, ./img/our-team/img-4@2x_sm.jpg 2x"
+                  media="(min-width: 480px)"
+                />
+                <img
+                  class="our-team-link"
+                  src="./img/our-team/img-4@1x_lg.jpg"
+                  alt="Фото Product Designer "
+                />
+              </picture>
               <div class="card">
                 <h3 class="our-team-txt">Михаил Ермаков</h3>
                 <p class="speciality" lang="en">UI Designer</p>
@@ -704,6 +791,53 @@
       </div>
     </div>
 
+    <!-- Mobile menu -->
+    <div class="menu-overlay" data-menu>
+      <div class="menu-container">
+        <button class="menu-button" type="button" data-menu-close>
+          <svg width="40" height="40" class="menu-close-icon">
+            <use href="./img/icons.svg#icon-close-menu40px"></use>
+          </svg>
+        </button>
+        <ul class="mobile-list list">
+          <li class="mobile-item">
+            <a href="./index.html" class="mobile-link-current link">Студия</a>
+          </li>
+          <li class="mobile-item">
+            <a href="./portfolio.html" class="mobile-link link">Портфолио</a>
+          </li>
+          <li class="mobile-item">
+            <a href="#" class="mobile-link link">Контакты</a>
+          </li>
+        </ul>
+
+        <ul class="mobile-list-adress list">
+          <li class="mobile-adress-item">
+            <a class="mobile-adress-mail-link" href="mailto:info@example.com">info@example.com</a>
+          </li>
+          <li class="mobile-adress-tell-item">
+            <a class="mobile-adress-link" href="tel:+380991111111">+38 099 111 11 11</a>
+          </li>
+        </ul>
+
+        <ul class="mobile-social-list list">
+          <li class="mobile-social-item">
+            <a href="#" class="mobile-social-link link">Instagram</a>
+          </li>
+          <li class="mobile-social-item">
+            <a href="#" class="mobile-social-link link">Twitter</a>
+          </li>
+          <li class="mobile-social-item">
+            <a href="#" class="mobile-social-link link">Facebook</a>
+          </li>
+          <li class="mobile-social-item">
+            <a href="#" class="mobile-social-link link">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
