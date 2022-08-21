@@ -501,11 +501,13 @@ img {
 }
 @media screen and (max-width: 767px) {
   .hero-overley {
+    max-width: 480px;
     height: 400px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .hero-overley {
+    max-width: 768px;
     height: 400px;
   }
 }
