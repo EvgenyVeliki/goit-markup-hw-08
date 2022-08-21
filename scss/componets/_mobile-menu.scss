@@ -95,21 +95,25 @@
 
 .mobile-item {
   margin-bottom: 32px;
+
+  &:first-child {
+    color: var(--button-bg-cl);
+  }
 }
 
 .mobile-item:last-child {
   margin-bottom: 0;
 }
 
-.mobile-adress-item {
+.mobile-adress-tell-item {
   margin-bottom: 32px;
 }
 
-.mobile-adress-tell-item {
+.mobile-adress-item {
   margin-bottom: 64px;
 }
 
-.mobile-adress-mail-link {
+.mobile-adress-link {
   font-weight: 500;
   font-size: 34px;
   line-height: calc(40 / 34);
@@ -117,7 +121,7 @@
   color: var(--button-bg-cl);
 }
 
-.mobile-adress-link {
+.mobile-adress-mail-link {
   font-weight: 500;
   font-size: 24px;
   line-height: calc(28 / 24);
