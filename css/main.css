@@ -105,9 +105,7 @@ img {
     display: none;
   }
 }
-
-.menu-button:focus,
-.menu-button:hover {
+.menu-button:focus, .menu-button:hover {
   fill: var(--button-bg-cl);
 }
 
